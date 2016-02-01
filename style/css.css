@@ -1,0 +1,12 @@
+ul.primary li
+{
+    display: block; /*преобразование в блочный элемент*/
+    float: right; /*преобразуем в плавающий объект*/
+    list-style-type: none;/*удаляем маркер*/
+    padding: 0 0.5% 0 2%; /*расстояние между маркерами*/
+}
+div.clear {
+    clear: both; /*отменить любое обтекание*/
+    height: 0;
+    overflow: hidden;
+}
